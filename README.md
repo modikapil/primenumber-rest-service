@@ -33,4 +33,4 @@ Acceptance-test report also added in the repository (primenumber-rest-service)
 
 primenumber-rest-service/cucumber-pretty.html
 
-Run index.html file in any browser.
+Run cucumber-pretty.html file in any browser.
