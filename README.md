@@ -32,6 +32,7 @@ Also, you can import this project on Eclipse or any IDE.
 Acceptance-test report also added in the repository (primenumber-rest-service)
 
 primenumber-rest-service/cucumber-pretty.html
+
 primenumber-rest-service/cucumber-report.pdf
 
 Run cucumber-pretty.html file in any browser.
