@@ -5,7 +5,7 @@ Technology/API Used : Spring Boot, Jersey, Java8, Cucumber JVM
 
 How to Run it:
 
-1. clone the repository (primenumber-rest-service)
+1. clone the repository (primenumber-rest-service) -> git clone https://github.com/modikapil/primenumber-rest-service.git
 
 2. GoTo Project (cd primenumber-rest-service/)
 
