@@ -46,7 +46,7 @@ Run cucumber-pretty.html file in any browser.
 - The project must be built upon Spring Boot; **Achived**
 - The API must respond with valid JSON; **Achived**
 - The API must be appropriately (to your discretion) documented; **Achived**
-- You may use any other frameworks or libraries for support e.g. Lombok, Rest Assured etc.; **Achived** (Used Lombok)
+- You may use any other frameworks or libraries for support e.g. Lombok, Rest Assured etc.; **Achived** (Used Lombok, Apache Http Client, Cucumber JVM)
 
 ## Optional Extensions Achieved
 - I have implemented an extra API for better performance using multi threading.
