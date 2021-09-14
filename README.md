@@ -1,7 +1,7 @@
 # primenumber-rest-service
 RESTful service which calculates and returns all the prime numbers up to and including a number provided
 
-Technology/API Used : Spring Boot, Jersey, Java8, Cucumber JVM
+Technology/API Used : Spring Boot, Jersey, Java8, Cucumber JVM, JUnit 5, Maven
 
 How to Run it:
 
@@ -34,3 +34,25 @@ Acceptance-test report also added in the repository (primenumber-rest-service)
 primenumber-rest-service/cucumber-pretty.html
 
 Run cucumber-pretty.html file in any browser.
+
+
+--------------------------------------------------------
+
+## Requirements
+
+- The project must be written in Java 8 or 11; - **Achived**
+- The project must use Maven OR Gradle to build, test and run; - **Achived** (Used Maven)
+- The project must have unit and integration tests; - **Achived**
+- The project must be built upon Spring Boot; **Achived**
+- The API must respond with valid JSON; **Achived**
+- The API must be appropriately (to your discretion) documented; **Achived**
+- You may use any other frameworks or libraries for support e.g. Lombok, Rest Assured etc.; **Achived** (Used Lombok)
+- The project must be accessible from Github – if you do not wish to make it public, please add my user to the repository: `garyjohnson-nwg`.  **Achived**
+
+## Optional Extensions Achieved
+- I have implemented an extra API for better performance using multi threading.
+- I have also added acceptance test using cucumber JVM and attached the report as well in html.
+
+## Future Plan
+ - I want to deploy this sservice to AWS.
+
