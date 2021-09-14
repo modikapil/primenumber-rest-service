@@ -24,7 +24,7 @@ public class PrimeNumberControllerIntegrationTest {
     public void shouldGetPrimeNumbersUpToAndIncludingNumberProvided() throws Exception {
 
         ResponseEntity<String> response = restTemplate.getForEntity(
-                new URL("http://localhost:" + port + "/v1/calculator/primeNumbers/13").toString(), String.class);
+                new URL("http://localhost:" + port + "/v1/primeNumbers/13").toString(), String.class);
         Assertions.assertTrue(Objects.requireNonNull(response.getBody()).contains("\"primeNumbers\":[1,2,3,5,7,11,13]"));
         Assertions.assertTrue(response.getStatusCode().is2xxSuccessful());
     }
@@ -33,7 +33,7 @@ public class PrimeNumberControllerIntegrationTest {
     public void shouldGetPrimeNumbersUpToAndIncludingNumberProvidedWithMultithreading() throws Exception {
 
         ResponseEntity<String> response = restTemplate.getForEntity(
-                new URL("http://localhost:" + port + "/v1/calculator/primeNumbers/multiThreaded/13").toString(), String.class);
+                new URL("http://localhost:" + port + "/v1/primeNumbers/multiThreaded/13").toString(), String.class);
         Assertions.assertTrue(response.getStatusCode().is2xxSuccessful());
     }
 }

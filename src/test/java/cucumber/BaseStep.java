@@ -18,7 +18,7 @@ public class BaseStep {
     }
 
     public String executePrimeNumber(PrimeNumberRequest primeNumberRequest) {
-        String primeNumberResource = "http://localhost:8080/v1/calculator/primeNumbers/%s";
+        String primeNumberResource = "http://localhost:8080/v1/primeNumbers/%s";
         HttpGet request = new HttpGet(String.format(primeNumberResource,
                 primeNumberRequest.getPrimeNumberLimit()));
         String json;
@@ -33,7 +33,7 @@ public class BaseStep {
 
     public String executePrimeNumberMultithreaded(
             PrimeNumberRequest primeNumberRequest) {
-        String primeNumberMultiThreadedResource = "http://localhost:8080/v1/calculator/primeNumbers/multiThreaded/%s";
+        String primeNumberMultiThreadedResource = "http://localhost:8080/v1/primeNumbers/multiThreaded/%s";
         HttpGet request = new HttpGet(String.format(
                 primeNumberMultiThreadedResource,
                 primeNumberRequest.getPrimeNumberLimit()));
