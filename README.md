@@ -47,7 +47,6 @@ Run cucumber-pretty.html file in any browser.
 - The API must respond with valid JSON; **Achived**
 - The API must be appropriately (to your discretion) documented; **Achived**
 - You may use any other frameworks or libraries for support e.g. Lombok, Rest Assured etc.; **Achived** (Used Lombok)
-- The project must be accessible from Github – if you do not wish to make it public, please add my user to the repository: `garyjohnson-nwg`.  **Achived**
 
 ## Optional Extensions Achieved
 - I have implemented an extra API for better performance using multi threading.
