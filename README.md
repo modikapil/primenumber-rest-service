@@ -7,7 +7,7 @@ How to Run it:
 
 1. clone the repository (primenumber-rest-service) -> git clone https://github.com/modikapil/primenumber-rest-service.git
 
-2. GoTo Project (cd primenumber-rest-service/)
+2. GoTo Project (cd primenumber-rest-service/) and compile it (mvn clean compile)
 
 3. Run Spring Boot to launch Prime Numbers REST APIs on Embedded Tomcat
    
