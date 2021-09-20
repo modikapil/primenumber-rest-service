@@ -55,5 +55,5 @@ Run cucumber-pretty.html file in any browser.
 - I have also added acceptance test using cucumber JVM and attached the report as well in html.
 
 ## Future Plan
- - I want to deploy this sservice to AWS.
+ - I want to deploy this service to AWS.
 
